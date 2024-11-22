@@ -7,6 +7,8 @@ This repository contains my solutions to various problems on [LeetCode](https://
 |---|---------|----------|------------|--------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_one/main.py) | Easy | Python |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_two/main.rs) | Medium | Rust |
+| 3 | [Longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_three/main.js) | Medium | Javascript |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_four/main.js) | Hard | Javascript |
 
 ## About
 LeetCode challenges are a great way to improve problem-solving and coding skills. This repository is part of my journey to enhance my skills in:
