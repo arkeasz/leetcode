@@ -2,21 +2,21 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
 	"os"
-	"os/exec"
 	"strings"
+	"run/cmd"
+	"run/utils"
 )
 
 func main() {
 	if len(os.Args) != 2 {
-		fmt.Println("Usage: run_problem.go <folder_name>")
+		fmt.Println("Usage: run.go <folder_name>")
 		return
 	}
 
 	folder := os.Args[1]
 
-	files, err := ioutil.ReadDir(folder)
+	files, err := utils.ReadDir(folder)
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
 		return
@@ -37,17 +37,11 @@ func main() {
 	}
 
 	if strings.HasSuffix(mainFile, ".js") {
-		cmd := exec.Command("node", mainFile)
-		cmd.Stdout = os.Stdout
-		cmd.Stderr = os.Stderr
-		cmd.Run()
+		cmd.RunJavaScript(mainFile)
 	} else if strings.HasSuffix(mainFile, ".rs") {
-		cmd := exec.Command("rustc", mainFile, "-o", "main_bin")
-		cmd.Run()
-		cmd = exec.Command("./main_bin")
-		cmd.Stdout = os.Stdout
-		cmd.Stderr = os.Stderr
-		cmd.Run()
+		cmd.RunRust(mainFile)
+	} else if strings.HasSuffix(mainFile, ".py") {
+		cmd.RunPython(mainFile)
 	} else {
 		fmt.Println("Error: Unsupported file type.")
 	}
