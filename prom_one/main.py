@@ -7,3 +7,9 @@ class Solution:
                     num_index = [i, j]
         return num_index
 
+nums = [1, 4, 5, 2]
+target = 5
+
+res = Solution.twoSum(Solution, nums=nums, target=target)
+
+print(res)
