@@ -17,12 +17,21 @@ LeetCode challenges are a great way to improve problem-solving and coding skills
 - **Rust Programming**
 
 ## Running the Code
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/arkeasz/leetcode.git
    cd leetcode-solutions
    ```
-2. Run the code for a specific solution (e.g., `two_sum.rs`):
+2. Two options:
+
+   - option 1: Run the code for a specific solution (e.g., `two_sum.rs`)
+   - option 2:
+   ```bash
+   go build run.go
+   ./run [folder_name]
+   ```
+   Replace `[folder_name]` with the folder name containing the solution (e.g., `prom_one` or `prom_two`).
 
 ## Feedback
 Feel free to open issues or suggest improvements. Contributions are also welcome!
