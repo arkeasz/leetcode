@@ -14,7 +14,8 @@ func main() {
 		return
 	}
 
-	folder := os.Args[1]
+	folder := "solutions/"
+	folder += os.Args[1]
 
 	files, err := utils.ReadDir(folder)
 	if err != nil {
