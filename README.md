@@ -9,6 +9,9 @@ This repository contains my solutions to various problems on [LeetCode](https://
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_two/main.rs) | Medium | Rust |
 | 3 | [Longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_three/main.js) | Medium | Javascript |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_four/main.js) | Hard | Javascript |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_five/main.js) | Medium | Python |
+| 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_six/main.js) | Medium | Python |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_seven/main.js) | Medium | Python |
 
 ## About
 LeetCode challenges are a great way to improve problem-solving and coding skills. This repository is part of my journey to enhance my skills in:
