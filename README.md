@@ -12,6 +12,8 @@ This repository contains my solutions to various problems on [LeetCode](https://
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_five/main.js) | Medium | Python |
 | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_six/main.js) | Medium | Python |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_seven/main.js) | Medium | Python |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_eight/main.py) | Medium | Python |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [Solution](https://github.com/arkeasz/leetcode/tree/main/prom_nine/main.rs) | Easy | Python |
 
 ## About
 LeetCode challenges are a great way to improve problem-solving and coding skills. This repository is part of my journey to enhance my skills in:
